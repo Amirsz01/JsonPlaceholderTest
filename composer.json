@@ -1,0 +1,26 @@
+{
+  "authors": [
+    {
+      "name": "Amirsz01",
+      "email": "amir.rima@bk.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Amirsz\\JsonPlaceholder\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "description": "JsonPlaceholder class",
+  "minimum-stability": "dev",
+  "name": "amirsz/json-placeholder",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "type": "library"
+}
